@@ -5514,6 +5514,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3871160447985254052, guid: 2c28cc3860b854b399b460f26e4ed5b4,
         type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 11400000, guid: 19a63ed173fed413285668fc4c4bcf65,
+        type: 2}
+    - target: {fileID: 3871160447985254052, guid: 2c28cc3860b854b399b460f26e4ed5b4,
+        type: 3}
       propertyPath: acceleration
       value: 0.1
       objectReference: {fileID: 0}

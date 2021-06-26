@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ec5126e95424d6ebf919aa7e48526e, type: 3}
+  m_Name: secondConvo
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: 75b6d12cbf5464665b60d91b2bbb6d8e, type: 2}
+  speakerRight: {fileID: 11400000, guid: fda4f299129d8469a82bfb698ac01446, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 75b6d12cbf5464665b60d91b2bbb6d8e, type: 2}
+    emotion: 1
+    text: ...
+  - character: {fileID: 11400000, guid: fda4f299129d8469a82bfb698ac01446, type: 2}
+    emotion: 0
+    text: What Do You Want
+  - character: {fileID: 11400000, guid: 75b6d12cbf5464665b60d91b2bbb6d8e, type: 2}
+    emotion: 3
+    text: Uh...

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cc37a113e98344992a485686173305e3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerInventory2: {instanceID: 0}
+  - blankInventorySlot: {fileID: 2765028422742592618, guid: eb670cd85931948f1b07cedc2d185c32,
+      type: 3}
+  - inventoryPanelContent: {instanceID: 0}
+  - descriptionText: {instanceID: 0}
+  - useButton: {instanceID: 0}
+  - currentItem: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

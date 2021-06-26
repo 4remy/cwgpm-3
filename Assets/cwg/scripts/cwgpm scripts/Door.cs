@@ -71,8 +71,8 @@ public class Door : Interactable
             }
             if (Input.GetKeyDown(KeyCode.Space) && playerInRange && thisDoorType == DoorType.keyDoor)
             {
-                OpenDoor();
                 Debug.Log("open door called!");
+                OpenDoor();
             }
         }
         else

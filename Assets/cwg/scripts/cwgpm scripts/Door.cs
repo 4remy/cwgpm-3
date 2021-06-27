@@ -79,7 +79,10 @@ public class Door : Interactable
         {
             Close();
         }
-        Debug.Log("you have no keys!");
+        if (player.inventory[key] == 0)
+        {
+            Debug.Log("no keys");
+        }
     }
 
     public void OpenDoor()

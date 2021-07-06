@@ -57,10 +57,12 @@ public class EmotionManager : Interactable
             //you can put your own condition into the brackets below
             //some example, if the number of sadItem in the inventory are greater than zero
 
+            /*
             if (Input.GetMouseButtonDown(0))
             {
                 sadSate();
             }
+            */
 
             if (player.inventory[specialItem] > 0)
             {

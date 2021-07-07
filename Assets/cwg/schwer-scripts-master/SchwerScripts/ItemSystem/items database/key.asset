@@ -9,16 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b904cede184f9a42869036f1c5b74ed, type: 3}
+  m_Script: {fileID: 11500000, guid: b56bfdfafb04440a3a329a7d54c648f4, type: 3}
   m_Name: key
   m_EditorClassIdentifier: 
-  _id: 4
-  _name: a KEY
-  _description: this key is very very exciting to me. homework key unlocks knowledge
-    etc
+  _id: 8
+  _name: key
+  _description: better than it was. this key is very exciting to me. homework key
+    unlocks knowledge etc
   _sprite: {fileID: 21300000, guid: d41d7a43e7c8b472ba677922ae5f6990, type: 3}
-  _stackable: 0
+  _stackable: 1
   _isKey: 1
-  OnUse:
-    m_PersistentCalls:
-      m_Calls: []

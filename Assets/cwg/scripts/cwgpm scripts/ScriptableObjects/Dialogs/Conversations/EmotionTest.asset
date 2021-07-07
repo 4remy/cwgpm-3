@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ec5126e95424d6ebf919aa7e48526e, type: 3}
   m_Name: EmotionTest
   m_EditorClassIdentifier: 
-  speakerLeft: {fileID: 11400000, guid: 268c28b84cf264813aecb5bc6e737e8c, type: 2}
-  speakerRight: {fileID: 11400000, guid: 178f0192b936a45128784dc16e760317, type: 2}
+  speakerLeft: {fileID: 11400000, guid: fda4f299129d8469a82bfb698ac01446, type: 2}
+  speakerRight: {fileID: 11400000, guid: 75b6d12cbf5464665b60d91b2bbb6d8e, type: 2}
   lines:
   - character: {fileID: 11400000, guid: 268c28b84cf264813aecb5bc6e737e8c, type: 2}
     emotion: 1

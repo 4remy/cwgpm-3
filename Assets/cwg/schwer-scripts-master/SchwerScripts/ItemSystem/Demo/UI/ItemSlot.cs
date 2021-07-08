@@ -8,7 +8,7 @@ namespace Schwer.ItemSystem.Demo {
         [SerializeField] private Image sprite = default;
         [SerializeField] private Text count = default;
 
-        public InventoryManager manager { get; set; }
+        public IItemSlotManager manager { get; set; }
         public Item item { get; private set; }
 
         public void SetItem(Item item, int itemCount) {
@@ -30,6 +30,10 @@ namespace Schwer.ItemSystem.Demo {
             count.text = "";
         }
 
-        public void OnSelect(BaseEventData eventData) => manager?.UpdateDisplay(item);
+        public void OnSelect(BaseEventData eventData) => manager?.OnItemSelected(item);
+    }
+
+    public interface IItemSlotManager {
+        void OnItemSelected(Item item);
     }
 }

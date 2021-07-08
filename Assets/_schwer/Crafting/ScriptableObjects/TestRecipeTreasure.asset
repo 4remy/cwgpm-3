@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4479eeee9660b794dbea29663999c5a0, type: 3}
+  m_Name: TestRecipeTreasure
+  m_EditorClassIdentifier: 
+  output: {fileID: 11400000, guid: 61637725da2f849e1a3b53d91dd29333, type: 2}
+  outputAmount: 3
+  input:
+    keys:
+    - {fileID: 11400000, guid: 22373f035933b4fdf848dbb2e2b3caf5, type: 2}
+    values: 03000000

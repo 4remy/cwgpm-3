@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace Schwer.ItemSystem.Demo {
-    public class InventoryManager : MonoBehaviour {
+    public class InventoryManager : MonoBehaviour, IItemSlotManager {
         [SerializeField] private InventorySO _inventory = default;
         private Inventory inventory => _inventory.value;
 
@@ -63,6 +63,8 @@ namespace Schwer.ItemSystem.Demo {
                 UpdateDisplay(current.item);
             }
         }
+
+        public void OnItemSelected(Item item) => UpdateDisplay(item);
 
         public void UpdateDisplay(Item item) {
             selectedItem = item;

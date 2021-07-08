@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/cwg/scenes/cwgpmScene2.unity
     guid: a8cde2fd5557a4bb988cc79ccc1cbeb7
+  - enabled: 1
+    path: Assets/_schwer/Crafting/CraftTest.unity
+    guid: 36cb5efdfa33b194d9129f4a6143aad8
   m_configObjects: {}

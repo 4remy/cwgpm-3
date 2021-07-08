@@ -54,4 +54,10 @@ public class SceneTransition : MonoBehaviour
         }
         
     }
+
+    public void runTransfer()
+    {
+        playerMemory.initialValue = playerPosition;
+        StartCoroutine(FadeCo());
+    }
 }

@@ -16,6 +16,7 @@ MonoBehaviour:
   outputAmount: 1
   input:
     keys:
-    - {fileID: 11400000, guid: 61637725da2f849e1a3b53d91dd29333, type: 2}
-    - {fileID: 11400000, guid: 22373f035933b4fdf848dbb2e2b3caf5, type: 2}
-    values: 0100000003000000
+    - {fileID: 11400000, guid: ba483179f48c1482b90cd8c91665939f, type: 2}
+    - {fileID: 11400000, guid: 9d908ac592f844b78a9d7c7fc3b8ac4c, type: 2}
+    - {fileID: 11400000, guid: f27f189dee1134d3fb831707a685628b, type: 2}
+    values: 010000000100000001000000

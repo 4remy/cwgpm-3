@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b56bfdfafb04440a3a329a7d54c648f4, type: 3}
-  m_Name: Gunmeat
+  m_Name: Cheese
   m_EditorClassIdentifier: 
-  _id: 7
-  _name: Gunmeat
-  _description: meat
-  _sprite: {fileID: 21300000, guid: 2fe32d5589398469da99ff58d769fe67, type: 3}
+  _id: 11
+  _name: Cheese
+  _description: Square cheese
+  _sprite: {fileID: 21300000, guid: 8bf026b6bb71b49b0aaeb7ce7568fb2e, type: 3}
   _stackable: 1
   _isKey: 0
